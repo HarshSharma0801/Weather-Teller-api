@@ -5,6 +5,7 @@ const app = express();
 app.use(bodyparser.urlencoded({extended:true}));
 app.get('/',(req,res)=>{
 res.sendFile(__dirname+'/index.html');
+//url for api
 // const url = 'https://api.weatherapi.com/v1/current.json?key=2fe72bce856b428bb27204334231606&q=shimla&aqi=no';
 // https.get(url,function(response){
 //     console.log(response.statusCode);

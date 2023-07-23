@@ -3,6 +3,7 @@ const bodyparser = require('body-parser');
 const https = require('https');
 const app = express();
 app.use(bodyparser.urlencoded({extended:true}));
+Fetch API 
 app.get('/',(req,res)=>{
 res.sendFile(__dirname+'/index.html');
     url for api
